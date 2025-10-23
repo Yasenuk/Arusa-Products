@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../src/styles/css/style.css">
+	<title>Arusa - About</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header _dark" data-scroll>
+			<div class="header__container">
+				<div class="header__menu-group">
+					<nav class="header__menu menu" data-burger>
+						<button class="menu__close-button" aria-label="Close menu"><span></span></button>
+						<div class="menu__body">
+							<div class="menu__container">
+								<div class="menu__group">
+									<span class="menu__caption h h_m">Arusa</span>
+									<ul class="menu__list">
+										<li><a href="/index.html" class="menu__link small">Home</a></li>
+										<li><a href="/public/about.html" class="menu__link small">About</a></li>
+										<li><a href="/public/blog.html" class="menu__link small">Blog</a></li>
+										<li><a href="/public/contact.html" class="menu__link small">Contact</a></li>
+									</ul>
+								</div>
+								<div class="menu__group">
+									<span class="menu__caption h h_m">Shop</span>
+									<ul class="menu__list">
+										<li><a href="/public/shop.html" class="menu__link small">All</a></li>
+										<li><a href="#" class="menu__link small">Lookbook</a></li>
+										<li><a href="#" class="menu__link small">Collection</a></li>
+										<li><a href="#" class="menu__link small">Features</a></li>
+									</ul>
+								</div>
+								<div class="menu__group">
+									<span class="menu__caption h h_m">Collections</span>
+									<ul class="menu__list">
+										<li><a href="#" class="menu__link small">Decors</a></li>
+										<li><a href="#" class="menu__link small">Furnitures</a></li>
+										<li><a href="#" class="menu__link small">Ceramics</a></li>
+										<li><a href="#" class="menu__link small">Lamps</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</nav>
+					<a href="/public/shop.html" class="header__menu-caption small">Shop</a>
+				</div>
+				<div class="header__logo">
+					<a href="/index.html" class="header__logo-link">
+						<img src="../src/assets/images/logo.svg" alt="Logo" class="header__logo-picture" width="117" height="19">
+					</a>
+				</div>
+				<button type="button" data-popup-open="#user-bag" class="header__bag">
+					Bag <span class="header__bag-quantity">0</span>
+				</button>
+			</div>
+		</header>
+		<main class="main">
+
+			
+			<div class="main__subscribe subscribe">
+				<div class="subscribe__container">
+					<h2 class="subscribe__title h h_l center">Be part of our club for discount</h2>
+					<form action="/" method="get" class="subscribe__form" id="subscribe-form">
+						<input type="email" class="subscribe__email small" name="email" id="email" placeholder="Your email" autocomplete="off">
+						<input type="submit" class="subscribe__button _button _button_main _button_border upper" value="subscribe">
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<nav class="footer__links">
+				<div class="footer__link-group">
+					<span class="footer__caption small upper">Arusa</span>
+					<ul class="footer__list">
+						<li><a href="/index.html" class="footer__link small">Home</a></li>
+						<li><a href="/public/about.html" class="footer__link small">About</a></li>
+						<li><a href="/public/blog.html" class="footer__link small">Blog</a></li>
+						<li><a href="/public/contact.html" class="footer__link small">Contact</a></li>
+					</ul>
+				</div>
+				<div class="footer__link-group">
+					<span class="footer__caption small upper">Shop</span>
+					<ul class="footer__list">
+						<li><a href="/public/shop.html" class="footer__link small">All</a></li>
+						<li><a href="#" class="footer__link small">Lookbook</a></li>
+						<li><a href="#" class="footer__link small">Collection</a></li>
+						<li><a href="#" class="footer__link small">Features</a></li>
+					</ul>
+				</div>
+				<div class="footer__link-group">
+					<span class="footer__caption small upper">Collections</span>
+					<ul class="footer__list">
+						<li><a href="#" class="footer__link small">Decors</a></li>
+						<li><a href="#" class="footer__link small">Furnitures</a></li>
+						<li><a href="#" class="footer__link small">Ceramics</a></li>
+						<li><a href="#" class="footer__link small">Lamps</a></li>
+					</ul>
+				</div>
+				<div class="footer__link-group">
+					<span class="footer__caption small upper">Help</span>
+					<ul class="footer__list">
+						<li><a href="/public/contact.html" class="footer__link small">Contact</a></li>
+						<li><a href="/public/404.html" class="footer__link small">Login & Account</a></li>
+						<li><a href="/public/404.html" class="footer__link small">Privacy Policy</a></li>
+						<li><a href="/public/404.html" class="footer__link small">Refund Policy</a></li>
+					</ul>
+				</div>
+			</nav>
+			<a href="/index.html" class="footer__logo">
+				<img width="1359" height="220" src="../src/assets/images/logo.svg" alt="Arusa logo">
+			</a>
+			<p class="footer__copy upper small">&copy; Arusa 2025 &vert; Vladyslav Yatseniuk</p>
+		</footer>
+
+		<div class="popups">
+			<div class="popup user-bag" id="user-bag" data-popup="user-bag" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+				<div class="popup__wrapper">
+					<div class="popup__body">
+						<header class="popup__header">
+							<h2 class="popup__title large upper">Order summary</h2>
+						</header>
+						<div class="popup__content">
+							
+						</div>
+						<footer class="popup__footer">
+							<div class="popup__total-price">
+								<h3 class="popup__price-lable upper">Grand total incl. tax</h3>
+								<span class="popup__price"><span id="totla-price">0</span>&dollar;</span>
+							</div>
+							<div class="popup__buttons">
+								<button data-popup-close type="button" class="popup__button _button _button_main _button_border small" aria-label="Закрити діалогове вікно">Continue shopping</button>
+								<button type="button" class="popup__button _button _button_main _button_border small" aria-label="Закрити діалогове вікно">Proceed to checkout</button>
+							</div>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="module" src="../src/scripts/index.js"></script>
+</body>
+
+</html>
