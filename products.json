@@ -3,96 +3,120 @@
     "id": 1,
     "title": "Синій комплект постільної білизни",
     "price": 4990,
-    "image": "blue-bedding-set",
-    "description": "Комфортна синя постільна білизна з м’якої тканини",
-		"href": "./404.html"
+    "description": "Комфортна синя постільна білизна з м'якої тканини",
+    "imageName": "blue-bedding-set",
+    "href": "./404.html",
+    "category": "decors",
+    "is_best_celling": true
   },
   {
     "id": 2,
     "title": "Модна настільна лампа",
     "price": 1799,
-    "image": "modern-table-lamp-set",
     "description": "Декоративна настільна лампа з сучасним дизайном",
-		"href": "./404.html"
+    "imageName": "modern-table-lamp-set",
+    "href": "./404.html",
+    "category": "decors",
+    "is_best_celling": true
   },
   {
     "id": 3,
     "title": "Біле акцентне крісло",
     "price": 4990,
-    "image": "white-accent-chair",
     "description": "Стильне акцентне крісло білого кольору",
-		"href": "./404.html"
+    "imageName": "white-accent-chair",
+    "href": "./404.html",
+    "category": "chairs",
+    "is_best_celling": false
   },
   {
     "id": 4,
     "title": "Зелені оксамитові подушки",
     "price": 5990,
-    "image": "green-velvet-pillows",
-    "description": "М’які подушки із зеленого оксамиту",
-		"href": "./404.html"
+    "description": "М'які подушки із зеленого оксамиту",
+    "imageName": "green-velvet-pillows",
+    "href": "./404.html",
+    "category": "decors",
+    "is_best_celling": true
   },
   {
     "id": 5,
     "title": "Сіра кутова софа",
     "price": 4990,
-    "image": "gray-sectional-sofa",
     "description": "Сіра кутова софа для вітальні з комфортною посадкою",
-		"href": "./404.html"
+    "imageName": "gray-sectional-sofa",
+    "href": "./404.html",
+    "category": "chairs",
+    "is_best_celling": false
   },
   {
     "id": 6,
     "title": "Біла тумба з ротангу",
     "price": 1799,
-    "image": "white-rattan-nightstand",
     "description": "Біла тумба з ротанговими елементами та шухлядою для зберігання",
-		"href": "./404.html"
+    "imageName": "white-rattan-nightstand",
+    "href": "./404.html",
+    "category": "decors",
+    "is_best_celling": false
   },
   {
     "id": 7,
     "title": "Підвісний світильник із кольорового скла",
     "price": 4990,
-    "image": "multicolor-glass-pendant-light",
-    "description": "Кольоровий скляний підвісний світильник для декору інтер’єру",
-		"href": "./404.html"
+    "description": "Кольоровий скляний підвісний світильник",
+    "imageName": "multicolor-glass-pendant-light",
+    "href": "./404.html",
+    "category": "lamps",
+    "is_best_celling": true
   },
   {
     "id": 8,
     "title": "Настільна лампа з бетонною основою",
     "price": 5990,
-    "image": "concrete-base-table-lamp",
-    "description": "Лампа з надійною бетонною основою та текстильним абажуром",
-		"href": "./404.html"
+    "description": "Лампа з надійною бетонною основою",
+    "imageName": "concrete-base-table-lamp",
+    "href": "./404.html",
+    "category": "lamps",
+    "is_best_celling": false
   },
   {
     "id": 9,
     "title": "Темно-синя кутова софа",
     "price": 4990,
-    "image": "navy-blue-sectional-sofa",
     "description": "Темно-синя кутова софа з сучасним дизайном",
-		"href": "./404.html"
+    "imageName": "navy-blue-sectional-sofa",
+    "href": "./404.html",
+    "category": "chairs",
+    "is_best_celling": false
   },
   {
     "id": 10,
-    "title": "Модний дерев’яний комод",
+    "title": "Модний дерев'яний комод",
     "price": 1799,
-    "image": "modern-wood-dresser",
-    "description": "Сучасний дерев’яний комод із шухлядами",
-		"href": "./404.html"
+    "description": "Сучасний дерев'яний комод із шухлядами",
+    "imageName": "modern-wood-dresser",
+    "href": "./404.html",
+    "category": "decors",
+    "is_best_celling": true
   },
   {
     "id": 11,
     "title": "Підвісний світильник із зеленого скла",
     "price": 4990,
-    "image": "green-glass-pendant-light",
-    "description": "Світильник із зеленим склом для стильного інтер’єру",
-		"href": "./404.html"
+    "description": "Світильник із зеленим склом для стильного інтер'єру",
+    "imageName": "green-glass-pendant-light",
+    "href": "./404.html",
+    "category": "lamps",
+    "is_best_celling": true
   },
   {
     "id": 12,
     "title": "Синя тумба із золотими ручками",
     "price": 5990,
-    "image": "blue-nightstand-gold-handles",
     "description": "Елегантна тумба синього кольору із золотими акцентами",
-		"href": "./404.html"
+    "imageName": "blue-nightstand-gold-handles",
+    "href": "./404.html",
+    "category": "decors",
+    "is_best_celling": false
   }
 ]
