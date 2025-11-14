@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Arusa - Магазин</title>
-  <script type="module" crossorigin src="./js/index-CFrJmuQR.js"></script>
-  <link rel="stylesheet" crossorigin href="./css/index-D-09Cj0e.css">
+  <script type="module" crossorigin src="./js/index-CJS1pPcU.js"></script>
+  <link rel="stylesheet" crossorigin href="./css/index-xvRrZdiv.css">
 </head>
 
 <body>
@@ -84,48 +84,52 @@
 				</div>
 				<div class="shop__content">
 					<aside class="shop__filters">
-						<h2 class="shop__filter-lable regular upper">Фільтри</h2>
-						<ul class="shop__filters-list">
-							<li class="shop__filters-item _button  regular upper">
-								<input checked type="radio" name="products-category" id="products-category-all" data-filter-category="">
-								<label for="products-category-all">Всі</label>
-							</li>
-							<li class="shop__filters-item _button  regular upper">
-								<input type="radio" name="products-category" id="products-category-decors" data-filter-category="decors">
-								<label for="products-category-decors">Декор</label>
-							</li>
-							<li class="shop__filters-item _button  regular upper">
-								<input type="radio" name="products-category" id="products-category-chairs" data-filter-category="chairs">
-								<label for="products-category-chairs">Стільці</label>
-							</li>
-							<li class="shop__filters-item _button  regular upper">
-								<input type="radio" name="products-category" id="products-category-lamps" data-filter-category="lamps">
-								<label for="products-category-lamps">Лампи</label>
-							</li>
-						</ul>
-						<h2 class="shop__filter-lable regular upper">Сортувати</h2>
-						<ul class="shop__filters-list">
-							<li class="shop__filters-item _button  regular upper">
-								<input type="radio" name="products-sort" id="products-sort-price-low-high" data-filter-sort="price-low-high">
-								<label for="products-sort-price-low-high">За ціною: від низької до високої</label>
-							</li>
-							<li class="shop__filters-item _button  regular upper">
-								<input type="radio" name="products-sort" id="products-sort-price-high-low" data-filter-sort="price-high-low">
-								<label for="products-sort-price-high-low">За ціною: від високої до низької</label>
-							</li>
-							<li class="shop__filters-item _button  regular upper">
-								<input type="radio" name="products-sort" id="products-sort-a-z" data-filter-sort="a-z">
-								<label for="products-sort-a-z">А-я</label>
-							</li>
-							<li class="shop__filters-item _button  regular upper">
-								<input type="radio" name="products-sort" id="products-sort-z-a" data-filter-sort="z-a">
-								<label for="products-sort-z-a">Я-а</label>
-							</li>
-							<li class="shop__filters-item _button  regular upper">
-								<input type="radio" name="products-sort" id="products-sort-best-selling" data-filter-sort="best-selling">
-								<label for="products-sort-best-selling">Хіт продажів</label>
-							</li>
-						</ul>
+						<div class="shop__filter-group" data-dropdown>
+							<h2 class="shop__filter-lable regular upper" data-dropdown-button>Фільтри</h2>
+							<ul class="shop__filters-list" data-dropdown-body>
+								<li class="shop__filters-item _button  regular upper">
+									<input checked type="radio" name="products-category" id="products-category-all" data-filter-category="">
+									<label for="products-category-all">Всі</label>
+								</li>
+								<li class="shop__filters-item _button  regular upper">
+									<input type="radio" name="products-category" id="products-category-decors" data-filter-category="decors">
+									<label for="products-category-decors">Декор</label>
+								</li>
+								<li class="shop__filters-item _button  regular upper">
+									<input type="radio" name="products-category" id="products-category-chairs" data-filter-category="chairs">
+									<label for="products-category-chairs">Стільці</label>
+								</li>
+								<li class="shop__filters-item _button  regular upper">
+									<input type="radio" name="products-category" id="products-category-lamps" data-filter-category="lamps">
+									<label for="products-category-lamps">Лампи</label>
+								</li>
+							</ul>
+						</div>
+						<div class="shop__filter-group" data-dropdown>
+							<h2 class="shop__filter-lable regular upper" data-dropdown-button>Сортувати</h2>
+							<ul class="shop__filters-list" data-dropdown-body>
+								<li class="shop__filters-item _button  regular upper">
+									<input type="radio" name="products-sort" id="products-sort-price-low-high" data-filter-sort="price-low-high">
+									<label for="products-sort-price-low-high">За ціною: від низької до високої</label>
+								</li>
+								<li class="shop__filters-item _button  regular upper">
+									<input type="radio" name="products-sort" id="products-sort-price-high-low" data-filter-sort="price-high-low">
+									<label for="products-sort-price-high-low">За ціною: від високої до низької</label>
+								</li>
+								<li class="shop__filters-item _button  regular upper">
+									<input type="radio" name="products-sort" id="products-sort-a-z" data-filter-sort="a-z">
+									<label for="products-sort-a-z">А-я</label>
+								</li>
+								<li class="shop__filters-item _button  regular upper">
+									<input type="radio" name="products-sort" id="products-sort-z-a" data-filter-sort="z-a">
+									<label for="products-sort-z-a">Я-а</label>
+								</li>
+								<li class="shop__filters-item _button  regular upper">
+									<input type="radio" name="products-sort" id="products-sort-best-selling" data-filter-sort="best-selling">
+									<label for="products-sort-best-selling">Хіт продажів</label>
+								</li>
+							</ul>
+						</div>
 					</aside>
 					<div class="shop__products">
 						<div class="shop__items"  data-load-products-option="buy-button" data-load-products-pagination="8"></div>
@@ -193,13 +197,11 @@
 							<h2 class="popup__title large upper">Зведення замовлення</h2>
 							<button data-popup-close type="button" class="popup__close" aria-label="Закрити діалогове вікно" aria-hidden="true"></button>
 						</header>
-						<div class="popup__content">
-
-						</div>
+						<div class="popup__content" data-bag-wrapper></div>
 						<footer class="popup__footer">
 							<div class="popup__total-price">
 								<h3 class="popup__price-lable upper">Загальна сума з податком</h3>
-								<span class="popup__price"><span id="totla-price">0</span> ₴</span>
+								<span class="popup__price"><span id="total-price">0</span></span>
 							</div>
 							<div class="popup__buttons">
 								<button data-popup-close type="button" class="popup__button _button _button_main _button_border small"

@@ -7,7 +7,9 @@
     "imageName": "blue-bedding-set",
     "href": "./404.html",
     "category": "decors",
-    "is_best_celling": true
+    "is_best_celling": true,
+    "size": "200 x 220",
+    "color": "Синій"
   },
   {
     "id": 2,
@@ -17,7 +19,9 @@
     "imageName": "modern-table-lamp-set",
     "href": "./404.html",
     "category": "decors",
-    "is_best_celling": true
+    "is_best_celling": true,
+    "size": "40 x 20",
+    "color": "Білий / Чорний"
   },
   {
     "id": 3,
@@ -27,7 +31,9 @@
     "imageName": "white-accent-chair",
     "href": "./404.html",
     "category": "chairs",
-    "is_best_celling": false
+    "is_best_celling": false,
+    "size": "80 x 75",
+    "color": "Білий"
   },
   {
     "id": 4,
@@ -37,7 +43,9 @@
     "imageName": "green-velvet-pillows",
     "href": "./404.html",
     "category": "decors",
-    "is_best_celling": true
+    "is_best_celling": true,
+    "size": "50 x 50",
+    "color": "Зелений"
   },
   {
     "id": 5,
@@ -47,7 +55,9 @@
     "imageName": "gray-sectional-sofa",
     "href": "./404.html",
     "category": "chairs",
-    "is_best_celling": false
+    "is_best_celling": false,
+    "size": "260 x 180",
+    "color": "Сірий"
   },
   {
     "id": 6,
@@ -57,7 +67,9 @@
     "imageName": "white-rattan-nightstand",
     "href": "./404.html",
     "category": "decors",
-    "is_best_celling": false
+    "is_best_celling": false,
+    "size": "60 x 40",
+    "color": "Білий / Натуральний"
   },
   {
     "id": 7,
@@ -67,7 +79,9 @@
     "imageName": "multicolor-glass-pendant-light",
     "href": "./404.html",
     "category": "lamps",
-    "is_best_celling": true
+    "is_best_celling": true,
+    "size": "30 x 30",
+    "color": "Багатоколірний"
   },
   {
     "id": 8,
@@ -77,7 +91,9 @@
     "imageName": "concrete-base-table-lamp",
     "href": "./404.html",
     "category": "lamps",
-    "is_best_celling": false
+    "is_best_celling": false,
+    "size": "45 x 18",
+    "color": "Сірий / Білий"
   },
   {
     "id": 9,
@@ -87,7 +103,9 @@
     "imageName": "navy-blue-sectional-sofa",
     "href": "./404.html",
     "category": "chairs",
-    "is_best_celling": false
+    "is_best_celling": false,
+    "size": "270 x 185",
+    "color": "Темно-синій"
   },
   {
     "id": 10,
@@ -97,7 +115,9 @@
     "imageName": "modern-wood-dresser",
     "href": "./404.html",
     "category": "decors",
-    "is_best_celling": true
+    "is_best_celling": true,
+    "size": "100 x 40",
+    "color": "Натуральне дерево"
   },
   {
     "id": 11,
@@ -107,7 +127,9 @@
     "imageName": "green-glass-pendant-light",
     "href": "./404.html",
     "category": "lamps",
-    "is_best_celling": true
+    "is_best_celling": true,
+    "size": "28 x 28",
+    "color": "Зелений"
   },
   {
     "id": 12,
@@ -117,6 +139,8 @@
     "imageName": "blue-nightstand-gold-handles",
     "href": "./404.html",
     "category": "decors",
-    "is_best_celling": false
+    "is_best_celling": false,
+    "size": "65 x 45",
+    "color": "Синій / Золотий"
   }
 ]

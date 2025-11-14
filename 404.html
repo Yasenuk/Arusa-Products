@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Сторінку не знайдено</title>
-  <script type="module" crossorigin src="./js/index-CFrJmuQR.js"></script>
-  <link rel="stylesheet" crossorigin href="./css/index-D-09Cj0e.css">
+  <script type="module" crossorigin src="./js/index-CJS1pPcU.js"></script>
+  <link rel="stylesheet" crossorigin href="./css/index-xvRrZdiv.css">
 </head>
 
 <body>
@@ -67,7 +67,10 @@
 				</button>
 			</div>
 		</header>
-		<main class="main"></main>
+		<main class="main">
+			<h1 class="h h_xxl">Сторінку не знайдено</h1>
+			<a href="./index.html" class="shop-button _button _button_main large">Назад до головної</a>
+		</main>
 		<footer class="footer">
 			<div class="footer__container">
 				<nav class="footer__links">
@@ -120,20 +123,18 @@
 
 		<div class="popups">
 			<div class="popup user-bag" id="user-bag" data-popup="user-bag" role="dialog" aria-modal="true"
-				aria-labelledby="popup-title">
+				aria-labelledby="popup-title" aria-label="Зведення замовлення">
 				<div class="popup__wrapper">
 					<div class="popup__body">
 						<header class="popup__header">
 							<h2 class="popup__title large upper">Зведення замовлення</h2>
 							<button data-popup-close type="button" class="popup__close" aria-label="Закрити діалогове вікно" aria-hidden="true"></button>
 						</header>
-						<div class="popup__content">
-
-						</div>
+						<div class="popup__content" data-bag-wrapper></div>
 						<footer class="popup__footer">
 							<div class="popup__total-price">
 								<h3 class="popup__price-lable upper">Загальна сума з податком</h3>
-								<span class="popup__price"><span id="totla-price">0</span> ₴</span>
+								<span class="popup__price"><span id="total-price">0</span></span>
 							</div>
 							<div class="popup__buttons">
 								<button data-popup-close type="button" class="popup__button _button _button_main _button_border small"
