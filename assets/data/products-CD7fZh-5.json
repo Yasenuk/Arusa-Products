@@ -8,8 +8,7 @@
     "href": "./404.html",
     "category": "decors",
     "is_best_celling": true,
-    "size": "200 x 220",
-    "color": "Синій"
+    "size": "200 x 220"
   },
   {
     "id": 2,
@@ -20,8 +19,7 @@
     "href": "./404.html",
     "category": "decors",
     "is_best_celling": true,
-    "size": "40 x 20",
-    "color": "Білий / Чорний"
+    "size": "40 x 20"
   },
   {
     "id": 3,
@@ -32,8 +30,7 @@
     "href": "./404.html",
     "category": "chairs",
     "is_best_celling": false,
-    "size": "80 x 75",
-    "color": "Білий"
+    "size": "80 x 75"
   },
   {
     "id": 4,
